@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Дезинсекция, дезинфекция, дератизация помещений и территорий</title>
+  <meta name="description" content="Дезинсекция, дезинфекция, дератизация помещений и территорий">
+  <meta name="keywords" content="Дезинсекция, дезинфекция, дератизация помещений и территорий">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon.ico?v=13" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./css/libs.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body id="main-page">
+
+  <div class="page-wrapper">
+
+    <div class="page-top"><i class="fa fa-angle-double-up"></i></div>
+
+    <div class="callback__wrapper">
+      <div class="callback__items">
+        <div class="callback__item">
+          <a target="_parent" href="https://api.whatsapp.com/send?phone=77077014200" id="whatsapp">
+            <i class="callback__icon callback__whatsapp"></i> WhatsApp
+          </a>
+        </div>
+        <div class="callback__item">
+          <a href="tel:+77077014200" id="callMe" class="call-me">
+            <i class="callback__icon callback__phone"></i>  Позвонить
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="">
+          </a>
+
+          <div class="grow"></div>
+
+          <div class="header__main">
+            <h3 class="header__title d-none d-md-block">
+              Дезинсекция, дезинфекция, дератизация помещений и территорий
+            </h3>
+            <div class="header__bottom">
+              <nav class="main-menu">
+                <div class="container">
+                  <ul>
+                    <li class="link">
+                      <a href="#service">Услуги</a>
+                    </li>
+                    <li class="link">
+                      <a href="#help">Виды вредителей</a>
+                    </li>
+                    <li class="link">
+                      <a href="#legal">Для юр.лиц</a>
+                    </li>                
+                    <li class="link">
+                      <a href="#company">О компании</a>
+                    </li>
+                    <li class="link last">
+                      <a href="#contact">Контакты</a>
+                    </li>
+                    <li class="d-lg-none">
+                      <a href="tel:+77077014200" class="text-phone" id="phone_number">+7 707 701-42-00</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    
+              <div class="header__phone d-none d-lg-block">
+                <a href="tel:+77077014200" class="text-phone" id="phone_number">+7 707 701-42-00</a>
+              </div>
+    
+              <a href="#" class="button d-none d-sm-block" data-remodal-target="zvonok-modal">Заказать звонок</a>
+            </div>
+          </div>
+
+          <button class="hamburger hamburger--elastic hamburger--accessible">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section s-main inverse" id="main">
+      <div class="container">
+        <div class="s-main__block">
+          <div class="s-main__title">Не ждите, пока вредители станут членами вашей семьи!</div>
+          <ul>
+            <li>Быстро избавим помещения и территории от насекомых и грызунов</li>
+            <li>Выезд специалиста в течении 1 суток</li>
+            <li>Недовольны результатом? – Вернём 100% ваших денег</li>
+          </ul>
+          <div class="form form--horizontal inverse wow slideInUp">
+            <form action="/mail.php" method="post">
+              <div class="form__title">Оставьте заявку и получите скидку в 10% на наши услуги</div>              
+              <div class="form__content">
+  
+                <input type="hidden" name="info" value="Оставьте заявку и получите скидку в 10% на наши услуги">
+  
+                <div class="input-div">
+                  <input type="text" class="input" name="name" placeholder="Представьтесь">
+                </div>
+  
+                <div class="input-div">
+                  <input type="tel" class="input" name="phone" placeholder="Введите телефон*" required="" minlength="10">
+                  <span class="error-message">Заполните это поле</span>
+                </div>
+  
+                <button class="button button--red ajax-submit" type="submit" id="ostavit_zayavku">Оставить заявку</button>
+              </div>
+              <div class="form__info">*Ваши данные в безопасности 
+                и не будут переданы третьим лицам</div>
+            </form>
+            <div class="srok">
+              <div class="srok__title">Предложение
+                истекает через:</div>
+              <script src="//megatimer.ru/get/987aac3ec2ba4071837835f5d01aa88f.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section s-service" id="service">
+      <div class="container">
+        <h2 class="section-title">Наши услуги</h2>
+        <div class="row justify-content-center s-service__content">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Дератизация
+                  помещений</div>
+              <div class="service__text">комплексные меры по уничтожению грызунов (крыс, мышей, полёвок и пр.)</div>
+              <div class="service__price">5 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дератизация помещений"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Дератизация
+                  территорий</div>
+              <div class="service__text">проведение комплекса мероприятий по уничтожению грызунов не только в помещениях, но и на открытых участках</div>
+              <div class="service__price">2,5 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дератизация территорий"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Дезинсекция
+                  тараканов <br>
+                  в помещениях</div>
+              <div class="service__text">мероприятия по уничтожению членистоногих путём тщательной обработки поверхностей, в т.ч. и в труднодоступных местах</div>
+              <div class="service__price">4,7 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинсекция тараканов в помещениях"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Дезинсекция мух <br>
+                  в помещениях</div>
+              <div class="service__text">тотальное истребление мух с применением эффективных, но безопасных инсектицидов</div>
+              <div class="service__price">20 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинсекция мух в помещениях"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Дезинсекция клопов
+                  в помещениях</div>
+              <div class="service__text">полное уничтожение клопов в помещениях (с обработкой плинтусов, матрасов, щелей и 
+                  швов)</div>
+              <div class="service__price">25 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинсекция клопов в помещениях"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Дезинфекция
+                  санузлов</div>
+              <div class="service__text">избавление от болезнетворных микроорганизмов, обитающих в туалетах, современными 
+                  методами</div>
+              <div class="service__price">14 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинфекция санузлов"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Обработка зелёных <br>
+                  и парковых зон</div>
+              <div class="service__text">уничтожение вредных насекомых на деревьях, кустарниках, цветах и газонах</div>
+              <div class="service__price">от 8 000 тг.</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Обработка зелёных и парковых зон"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="service">
+              <div class="service__title">Камерная обработка
+                  матрацев, подушек <br>
+                  и одеял</div>
+              <div class="service__text">тщательная прожарка предметов обихода при температуре 95°C с целью уничтожения блох, 
+                  постельных клещей, клопов и других насекомых</div>
+              <div class="service__price"></div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Камерная обработка матрацев, подушек и одеял"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel carousel-service">
+          <div class="service">
+            <div class="service__title">Дератизация
+                помещений</div>
+            <div class="service__text">комплексные меры по уничтожению грызунов (крыс, мышей, полёвок и пр.)</div>
+            <div class="service__price">5 тг/м²</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дератизация помещений"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Дератизация
+                территорий</div>
+            <div class="service__text">проведение комплекса мероприятий по уничтожению грызунов не только в помещениях, но и на открытых участках</div>
+            <div class="service__price">2,5 тг/м²</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дератизация территорий"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Дезинсекция
+                тараканов <br>
+                в помещениях</div>
+            <div class="service__text">мероприятия по уничтожению членистоногих путём тщательной обработки поверхностей, в т.ч. и в труднодоступных местах</div>
+            <div class="service__price">4,7 тг/м²</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинсекция тараканов в помещениях"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Дезинсекция мух <br>
+                в помещениях</div>
+            <div class="service__text">тотальное истребление мух с применением эффективных, но безопасных инсектицидов</div>
+            <div class="service__price">20 тг/м²</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинсекция мух в помещениях"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Дезинсекция клопов
+                в помещениях</div>
+            <div class="service__text">полное уничтожение клопов в помещениях (с обработкой плинтусов, матрасов, щелей и 
+                швов)</div>
+            <div class="service__price">25 тг/м²</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинсекция клопов в помещениях"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Дезинфекция
+                санузлов</div>
+            <div class="service__text">избавление от болезнетворных микроорганизмов, обитающих в туалетах, современными 
+                методами</div>
+            <div class="service__price">14 тг/м²</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дезинфекция санузлов"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Обработка зелёных <br>
+                и парковых зон</div>
+            <div class="service__text">уничтожение вредных насекомых на деревьях, кустарниках, цветах и газонах</div>
+            <div class="service__price">от 8 000 тг.</div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Обработка зелёных и парковых зон"}]}'>Оставить заявку</button>
+          </div>
+          <div class="service">
+            <div class="service__title">Камерная обработка
+                матрацев, подушек <br>
+                и одеял</div>
+            <div class="service__text">тщательная прожарка предметов обихода при температуре 95°C с целью уничтожения блох, 
+                постельных клещей, клопов и других насекомых</div>
+            <div class="service__price"></div>
+            <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Камерная обработка матрацев, подушек и одеял"}]}'>Оставить заявку</button>
+          </div>
+        </div>
+        <div class="s-service__biznes">Комплексные решения</div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="service__komplex">
+              <div class="service__title">Квартиры</div>
+              <div class="service__price">240 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Квартиры"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service__komplex">
+              <div class="service__title">Дома</div>
+              <div class="service__price">150 тг/м²</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Дома"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service__komplex">
+              <div class="service__title">Сады, дачи, <br>
+                  зеленые насаждения</div>
+              <div class="service__price">2 400 тг./1 сотка</div>
+              <div class="service__price2">Свыше 1 гектара - от 700  тенге</div>
+              <button class="button" data-remodal-target="ostavit-zayavku" data-remodal-info='{"info":[{"prop":"Наши услуги","value":"Сады, дачи, зеленые насаждения"}]}'>Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s-garant wow ZoomIn">
+      <div class="container">
+        <h2 class="section-title">Наши гарантии</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="garant">
+              <div class="garant__img"><img src="./img/garant-icon.png" alt=""></div>
+              <div class="garant__title">КАЧЕСТВА</div>
+              <div class="garant__text">Мы вернем Вам 100% оплаты, <br>
+                  если вредитель вернется.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="garant">
+              <div class="garant__img"><img src="./img/garant-icon.png" alt=""></div>
+              <div class="garant__title">НАДЕЖНОСТИ</div>
+              <div class="garant__text">Используемые нами средства имеют соответствующие сертификаты и официально зарегистрированы в Республике Казахстан.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="garant">
+              <div class="garant__img"><img src="./img/garant-icon.png" alt=""></div>
+              <div class="garant__title">ВЫПОЛНЕНИЯ СРОКОВ</div>
+              <div class="garant__text">Любой заказ выполняем <br>
+                  в течение 1 суток!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s-help inverse" id="help">
+      <div class="container">
+        <h2 class="section-title">Помогаем в борьбе с</h2>
+        <div class="row justify-content-center s-help__content">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-1.jpg" alt=""></div>
+              <div class="help__name">Тараканами</div>
+              <div class="help__block">
+                <h3 class="help__title">Тараканами</h3>
+                <div class="help__text">На своих лапках и телах тараканы могут переносить болезнетворные бактерии и споры плесени.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-2.jpg" alt=""></div>
+              <div class="help__name">Клещами</div>
+              <div class="help__block">
+                <h3 class="help__title">Клещами</h3>
+                <div class="help__text">Иксодовые клещи являются переносчиками опасных заболеваний.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-3.jpg" alt=""></div>
+              <div class="help__name">Клопами</div>
+              <div class="help__block">
+                <h3 class="help__title">Клопами</h3>
+                <div class="help__text">Уничтожить клопов непросто. Это под силу только профессионалам.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-4.jpg" alt=""></div>
+              <div class="help__name">Крысами/мышами</div>
+              <div class="help__block">
+                <h3 class="help__title">Крысами/мышами</h3>
+                <div class="help__text">Эти грызуны не только переносят болезни. Они способны серьёзно повредить съестные припасы и любимые вещи.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-5.jpg" alt=""></div>
+              <div class="help__name help__name--min">Вирусами, бактериями <br>
+                и патогенными грибами</div>
+              <div class="help__block">
+                <h3 class="help__title">Вирусами, бактериями <br>
+                  и патогенными грибами</h3>
+                <div class="help__text">Комплексное уничтожение микроорганизмов возможно исключительно при помощи 
+                  специальных препаратов.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-6.jpg" alt=""></div>
+              <div class="help__name">Пауками</div>
+              <div class="help__block">
+                <h3 class="help__title">Пауками</h3>
+                <div class="help__text">Ядовитые пауки могут быть смертельно опасны. От укусов каракуртов с каждым годом 
+                  страдает всё больше людей.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-7.jpg" alt=""></div>
+              <div class="help__name">Мухами</div>
+              <div class="help__block">
+                <h3 class="help__title">Мухами</h3>
+                <div class="help__text">Муха – главный разносчик инфекционных и паразитарных заболеваний на планете. Тиф, 
+                  желтуха, холера, сальмонеллёз, яйца глистов – вот что разносят на своих лапках эти 
+                  насекомые.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-8.jpg" alt=""></div>
+              <div class="help__name">Комарами</div>
+              <div class="help__block">
+                <h3 class="help__title">Комарами</h3>
+                <div class="help__text">Маленькие наглые кровопийцы способны превратить вашу жизнь в настоящий кошмар.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-9.jpg" alt=""></div>
+              <div class="help__name">Муравьями</div>
+              <div class="help__block">
+                <h3 class="help__title">Муравьями</h3>
+                <div class="help__text">Муравьи – настоящее бедствие для хозяйки. Они проникают повсюду. А вывести их – настоящая проблема.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="help">
+              <div class="help__img"><img src="./img/help-10.jpg" alt=""></div>
+              <div class="help__name">Блохами</div>
+              <div class="help__block">
+                <h3 class="help__title">Блохами</h3>
+                <div class="help__text">Особенности жизненного цикла этих насекомых осложняют борьбу с ними. Эффективное воздействие на колонию блох предполагает обработку не только мест их непосредственного скопления, но и прилегающих территорий.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel carousel-help">
+          <div class="help">
+            <div class="help__img"><img src="./img/help-1.jpg" alt=""></div>
+            <div class="help__name">Тараканами</div>
+            <div class="help__block">
+              <h3 class="help__title">Тараканами</h3>
+              <div class="help__text">На своих лапках и телах тараканы могут переносить болезнетворные бактерии и споры плесени.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-2.jpg" alt=""></div>
+            <div class="help__name">Клещами</div>
+            <div class="help__block">
+              <h3 class="help__title">Клещами</h3>
+              <div class="help__text">Иксодовые клещи являются переносчиками опасных заболеваний.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-3.jpg" alt=""></div>
+            <div class="help__name">Клопами</div>
+            <div class="help__block">
+              <h3 class="help__title">Клопами</h3>
+              <div class="help__text">Уничтожить клопов непросто. Это под силу только профессионалам.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-4.jpg" alt=""></div>
+            <div class="help__name">Крысами/мышами</div>
+            <div class="help__block">
+              <h3 class="help__title">Крысами/мышами</h3>
+              <div class="help__text">Эти грызуны не только переносят болезни. Они способны серьёзно повредить съестные припасы и любимые вещи.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-5.jpg" alt=""></div>
+            <div class="help__name help__name--min">Вирусами, бактериями <br>
+              и патогенными грибами</div>
+            <div class="help__block">
+              <h3 class="help__title">Вирусами, бактериями <br>
+                и патогенными грибами</h3>
+              <div class="help__text">Комплексное уничтожение микроорганизмов возможно исключительно при помощи 
+                специальных препаратов.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-6.jpg" alt=""></div>
+            <div class="help__name">Пауками</div>
+            <div class="help__block">
+              <h3 class="help__title">Пауками</h3>
+              <div class="help__text">Ядовитые пауки могут быть смертельно опасны. От укусов каракуртов с каждым годом 
+                страдает всё больше людей.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-7.jpg" alt=""></div>
+            <div class="help__name">Мухами</div>
+            <div class="help__block">
+              <h3 class="help__title">Мухами</h3>
+              <div class="help__text">Муха – главный разносчик инфекционных и паразитарных заболеваний на планете. Тиф, 
+                желтуха, холера, сальмонеллёз, яйца глистов – вот что разносят на своих лапках эти 
+                насекомые.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-8.jpg" alt=""></div>
+            <div class="help__name">Комарами</div>
+            <div class="help__block">
+              <h3 class="help__title">Комарами</h3>
+              <div class="help__text">Маленькие наглые кровопийцы способны превратить вашу жизнь в настоящий кошмар.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-9.jpg" alt=""></div>
+            <div class="help__name">Муравьями</div>
+            <div class="help__block">
+              <h3 class="help__title">Муравьями</h3>
+              <div class="help__text">Муравьи – настоящее бедствие для хозяйки. Они проникают повсюду. А вывести их – настоящая проблема.</div>
+            </div>
+          </div>
+          <div class="help">
+            <div class="help__img"><img src="./img/help-10.jpg" alt=""></div>
+            <div class="help__name">Блохами</div>
+            <div class="help__block">
+              <h3 class="help__title">Блохами</h3>
+              <div class="help__text">Особенности жизненного цикла этих насекомых осложняют борьбу с ними. Эффективное воздействие на колонию блох предполагает обработку не только мест их непосредственного скопления, но и прилегающих территорий.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s-reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+        <div class="owl-carousel carousel-reviews">
+          <div class="review"><img src="./img/review-1.jpg" alt=""></div>
+          <div class="review"><img src="./img/review-2.jpg" alt=""></div>
+          <div class="review"><img src="./img/review-3.jpg" alt=""></div>
+          <div class="review"><img src="./img/review-4.jpg" alt=""></div>
+          <div class="review"><img src="./img/review-5.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s-provide wow slideInUp">
+      <div class="container">
+        <h2 class="section-title">Обратившись к нам сейчас, вы обеспечите</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="provide">
+              <div class="provide__img"><img src="./img/provide-1.jpg" alt=""></div>
+              <div class="provide__text">Максимальный ущерб для вредителей, максимальная безопасность для вас!</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="provide">
+              <div class="provide__img"><img src="./img/provide-2.jpg" alt=""></div>
+              <div class="provide__text">Ваши домашние питомцы в полном порядке</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="provide">
+              <div class="provide__img"><img src="./img/provide-3.jpg" alt=""></div>
+              <div class="provide__text">В квартире и доме живут только те, кому вы рады.</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="provide">
+              <div class="provide__img"><img src="./img/provide-4.jpg" alt=""></div>
+              <div class="provide__text">Ваши зелёные друзья благодарны вам за избавление от вредителей</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s-legal" id="legal">
+      <div class="container">
+        <h2 class="section-title">Особые условия для юридических лиц</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="s-legal__text"><span>Юридические лица – особенная категория наших клиентов.</span> Для них мы предоставляем особые условия сотрудничества и соответствующий пакет документов для отчёта перед санэпидемстанцией. </div>
+          </div>
+          <div class="col-md-6">
+            <div class="s-legal__text">Зачем иметь дело с новичками и дилетантами? «ДезСнаб-Трейд» – признанный лидер рынка.  <br><br>
+             <span>С нами спокойно и надёжно!</span></div>
+          </div>
+        </div>
+        <div class="s-legal__title">Предоставляем особые условия для:</div>
+        <div class="owl-carousel carousel-legal">
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-1.jpg" alt=""></div>
+            <div class="legal__title">Сельскохозяйственных
+              организаций</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-2.jpg" alt=""></div>
+            <div class="legal__title">Заводов</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-3.jpg" alt=""></div>
+            <div class="legal__title">Кафе, ресторанов, столовых</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-4.jpg" alt=""></div>
+            <div class="legal__title">Медицинских учреждений</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-5.jpg" alt=""></div>
+            <div class="legal__title">Бассейнов, бань, саун</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-6.jpg" alt=""></div>
+            <div class="legal__title">Аптек</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-7.jpg" alt=""></div>
+            <div class="legal__title">Салонов красоты</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-8.jpg" alt=""></div>
+            <div class="legal__title">Гостиниц</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-9.jpg" alt=""></div>
+            <div class="legal__title">Общежитий</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-10.jpg" alt=""></div>
+            <div class="legal__title">Санаториев и пансонатов</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-11.jpg" alt=""></div>
+            <div class="legal__title">Фитнес-центров</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-12.jpg" alt=""></div>
+            <div class="legal__title">Продуктовых магазинов</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-13.jpg" alt=""></div>
+            <div class="legal__title">Складов</div>
+          </div>
+          <div class="legal">
+            <div class="legal__img"><img src="./img/legal-14.jpg" alt=""></div>
+            <div class="legal__title">Прочих организаций</div>
+          </div>
+        </div>
+        <div class="form form--horizontal inverse wow FadeIn">
+          <form action="/mail.php" method="post">
+            <div class="form__title">Оставьте заявку для обсуждения индивидуальных условий
+              предоставления наших услуг</div>              
+            <div class="form__content">
+
+              <input type="hidden" name="info" value="Оставьте заявку для обсуждения индивидуальных условий предоставления наших услуг">
+
+              <div class="input-div">
+                <input type="text" class="input" name="name" placeholder="Представьтесь">
+              </div>
+
+              <div class="input-div">
+                <input type="tel" class="input" name="phone" placeholder="Введите телефон*" required="" minlength="10">
+                <span class="error-message">Заполните это поле</span>
+              </div>
+
+              <button class="button button--red ajax-submit" type="submit" id="obsudit-uslovya">Обсудить условия</button>
+            </div>
+            <div class="form__info">*Ваши данные в безопасности 
+              и не будут переданы третьим лицам</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s-company" id="company">
+      <div class="container">
+        <h2 class="section-title">О компании "ДезСнаб-Трейд"</h2>
+        <div class="row">
+          <div class="col-lg-6 wow FadeIn">
+            <div class="row">
+              <div class="col-6">
+                <div class="company__title">2006</div>
+                <div class="company__text">Компания основана в 2006 году  </div>
+              </div>
+              <div class="col-6">
+                <div class="company__title company__title--min">150 000</div>
+                <div class="company__text">Ежемесячно стираем более <br>
+                    150 000 кг белья    </div>
+              </div>
+              <div class="col-6">
+                <div class="company__title">10 000</div>
+                <div class="company__text">Более 10 000 довольных
+                    клиентов!  </div>
+              </div>
+              <div class="col-6">
+                <div class="company__title">100</div>
+                <div class="company__text">В компании работает более <br>
+                    100 человек    </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="s-company__title">Нашими клиентами являются такие крупные компании, как</div>
+            <div class="s-company__content">
+              <div class="company__img"><img src="./img/kazaktzh.png" alt=""></div>
+              <div class="company__img"><img src="./img/kaznpu.png" alt=""></div>
+              <div class="company__img"><img src="./img/kazatk.png" alt=""></div>
+              <div class="company__img"><img src="./img/National.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section s-lider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="lider__block">
+              <div class="lider__title">Лидер года</div>
+              <div class="lider__text">2 года подряд мы лидируем в Национальном бизнес-рейтинге. <br>
+                  2 года подряд нас признают лучшими из лучших. <br>
+                  Мы – Лидеры. Мы достигли вершины. Но не намерены сдавать обороты!      </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="s-lider__img">
+              <img src="./img/lider.png" alt="">
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="s-contact" id="contact">
+      <div class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab380ac8e9c8b6ab41a1c73bb3c4db2c6185716812df9d4b47b8de751b0021136&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=true"></script>
+        <div class="contact inverse wow flipInX">
+          <div class="container">
+            <div class="contact__content">
+              <div class="contact__phone">
+                <a href="tel:+77077014200" class="text-phone" id="phone_number">+7 707 701-42-00</a>
+              </div>
+              <div class="contact__address">
+                г. Алматы, пр. Рыскулова, 68 «а»
+              </div>
+              <div class="contact__info">
+                <a href="#">info@dezsnab.kz</a>
+              </div>             
+            </div>   
+          </div>                   
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer inverse">
+      <div class="container">
+        <div class="footer__content">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="">
+          </a>
+
+          <div class="footer__block">
+            <a href="#" class="button" data-remodal-target="zvonok-modal"><img src="./img/phone.png" alt=""> Заказать звонок</a>
+            <div class="footer__politika" data-remodal-target="politika">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</div>
+          </div>
+
+          <div class="footer__comand">Создано командой
+            <a href="//evodreammarketing.com" target="_blank"><img src="./img/evodream.png" alt="EvodreamMarketing"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>  
+
+  <div class="remodal remodal--small" data-remodal-id="zvonok-modal" data-remodal-options="hashTracking: true">
+    <button data-remodal-action="close" class="remodal-close remodal-close--white"></button>
+
+    <div class="remodal__title inverse">Оставьте заявку. <br>
+        Наш менеджер свяжется
+        с вами в течении 15 минут.</div>
+
+    <div class="form form--vertical">
+      <form action="/mail.php" method="post">
+        <div class="form__content">
+          <input type="hidden" name="info" value="Обратный звонок">
+
+          <div class="input-div">
+            <input type="text" class="input" name="name" placeholder="Представьтесь">
+          </div>
+
+          <div class="input-div">
+            <input type="tel" class="input" name="phone" placeholder="Введите телефон*" required minlength="10">
+            <span class="error-message">Заполните это поле</span>
+          </div>
+
+          <button class="button button--red ajax-submit" type="submit" id="zakazat_zvonok">Заказать звонок</button>
+
+          <div class="form__info inverse">*Ваши данные в безопасности
+            и не будут переданы третьим лицам</div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="remodal remodal--small" data-remodal-id="ostavit-zayavku" data-remodal-options="hashTracking: true">
+    <button data-remodal-action="close" class="remodal-close remodal-close--white"></button>
+
+    <div class="remodal__title inverse">Оставьте заявку. <br>
+        Наш менеджер свяжется
+        с вами в течении 15 минут. <br>
+        Всё обсудим, всё рассчитаем!</div>
+
+    <div class="form form--vertical">
+      <form action="/mail.php" method="post">
+        <div class="form__content">
+          <input type="hidden" name="info" value="Наши услуги">
+          <input type="hidden" name="Наши услуги" value="">
+
+          <div class="input-div">
+            <input type="text" class="input" name="name" placeholder="Представьтесь">
+          </div>
+
+          <div class="input-div">
+            <input type="tel" class="input" name="phone" placeholder="Введите телефон*" required minlength="10">
+            <span class="error-message">Заполните это поле</span>
+          </div>
+
+          <button class="button button--red ajax-submit" type="submit" id="zakazat_zvonok">Заказать звонок</button>
+
+          <div class="form__info inverse">*Ваши данные в безопасности
+            и не будут переданы третьим лицам</div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="remodal politika" data-remodal-id="politika" data-remodal-options="hashTracking: true">
+    <button data-remodal-action="close" class="remodal-close"></button>
+
+    <div class="politika__title">Политика конфиденциальности</div>
+
+    <div class="politika__text">Соблюдение Вашей конфиденциальности важно для нашей компании. Поэтому мы разработали Политику Конфиденциальности, которая описывает, как используется и хранится Ваша информация. Пожалуйста, ознакомьтесь и сообщите нам, если у Вас возникнут какие-либо вопросы.</div>
+
+    <div class="politika__text"><span>Сбор и использование персональной информации</span> <br>
+    Под персональной информацией понимаются данные, которые могут быть использованы для идентификации определенного лица либо связи с ним. От Вас может быть запрошено предоставление персональной информации в любой момент, когда Вы связываетесь с нами.</div>
+
+    <div class="politika__text"><span>Какую персональную информацию мы собираем</span> <br>
+    Когда Вы оставляете заявку на сайте, мы можем собирать различную информацию, включая Ваше имя, номер телефона, адрес электронной почты и т.д.</div>
+
+    <div class="politika__text"><span>Как мы используем Вашу персональную информацию</span> <br>
+    Персональная информация позволяет нам сообщать об уникальных предложениях, акциях и других мероприятиях и ближайших событиях. Время от времени мы можем использовать Вашу персональную информацию для отправки важных уведомлений и сообщений. Мы также можем использовать персональную информацию для внутренних целей: проведения аудита, анализа данных и различных исследований в целях улучшения услуг. Если Вы принимаете участие в розыгрыше призов или конкурсе, мы можем использовать информацию для управления такими программами.</div>
+
+    <div class="politika__text"><span>Раскрытие информации третьим лицам</span> <br>
+    Мы не раскрываем полученную от Вас информацию третьим лицам.</div>
+
+    <div class="politika__text"><span>Исключения</span> <br>
+    В соответствии с законом, судебным порядком, в судебном разбирательстве и/или на основании публичных запросов или запросов от государственных органов на территории РК. Мы также можем раскрывать информацию о Вас, если мы определим, что такое раскрытие необходимо или уместно в целях безопасности, поддержания правопорядка или иных общественно важных случаях.
+    В случае реорганизации, слияния или продажи мы можем передать собираемую нами персональную информацию соответствующему третьему лицу – правопреемнику.</div>
+
+    <div class="politika__text"><span>Защита персональной информации</span> <br>
+    Мы предпринимаем меры предосторожности, включая административные, технические и физические для защиты Вашей персональной информации от утраты, кражи и недобросовестного использования, а также от несанкционированного доступа, раскрытия, изменения и уничтожения.</div>
+
+    <div class="politika__text"><span>Соблюдение Вашей конфиденциальности на уровне компании</span> <br>
+    Чтобы убедиться, что Ваша персональная информация находится в безопасности, мы доводим нормы соблюдения конфиденциальности и безопасности до наших сотрудников и строго следим за исполнением мер соблюдения конфиденциальности.  </div>
+    
+  </div>
+
+  <script src="./js/libs.min.js"></script>
+  <script src="./js/main.min.js"></script>
+</body>
+
+</html>
